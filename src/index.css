@@ -1,0 +1,35 @@
+:root {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1;
+  font-weight: 500;
+
+  /* variable */
+  --bg-color:#131313;
+  --invert-bg-color: #000000;
+  --primary-color: #1986EC;
+  --invert-primary-color:  #FFFFFF;
+  --secondary-color:#A0A0A0;
+
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+  background: none;
+  border: none;
+  outline: none;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+

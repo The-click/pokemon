@@ -1,0 +1,58 @@
+.pokemonPage {
+    background: var(--bg-color);
+    color: var(--invert-primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.pokemonHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 56px;
+
+    .pokemonApi {
+        padding: 7px;
+        border: 1px solid var(--invert-primary-color);
+        text-transform: uppercase;
+    }
+    .pokemonToolip {
+        display: flex;
+        align-items: center;
+        width: 146px;
+        gap: 10px;
+    }
+    .tooltipImg {
+        align-self: center;
+    }
+    .tooltipText {
+    }
+}
+.pokemonMain {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.pokemonsBtn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    height: fit-content;
+
+    .btn {
+        align-self: center;
+        margin-bottom: 10px;
+    }
+}
+.pokemonShow {
+    background-color: var(--invert-bg-color);
+    min-width: 484px;
+    min-height: 500px;
+}

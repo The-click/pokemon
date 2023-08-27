@@ -1,0 +1,19 @@
+.button {
+    cursor: pointer;
+
+    &.background {
+        padding: 20px;
+        border-radius: 44px;
+        background-color: var(--primary-color);
+        color: var(--invert-primary-color);
+        font-size: 19px;
+        font-family: "Raleway";
+        line-height: 1;
+        text-transform: lowercase;
+    }
+
+    &.skeleton {
+        width: 150px;
+        height: calc(1em + 40px);
+    }
+}
