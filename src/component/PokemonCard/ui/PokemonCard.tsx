@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import { memo } from "react";
 import cls from "./PokemonCard.module.scss";
 import clsx from "clsx";
 import { IPokemonDetails } from "pages/PokemonPage";

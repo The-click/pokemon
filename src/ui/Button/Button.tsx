@@ -1,4 +1,4 @@
-import React, { ButtonHTMLAttributes, memo } from "react";
+import { memo } from "react";
 import cls from "./Button.module.scss";
 import clsx from "clsx";
 import { Button, ButtonProps, Skeleton } from "@mui/material";
